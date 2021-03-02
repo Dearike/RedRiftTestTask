@@ -6,16 +6,16 @@ using Random = UnityEngine.Random;
 
 namespace CodeBase.Logic
 {
-    public enum Characteristics
-    {
-        Health,
-        Attack,
-        Mana
-    }
-
     [RequireComponent(typeof(Button))]
     public class InteractiveTest : MonoBehaviour
     {
+        private enum Characteristics
+        {
+            Health,
+            Attack,
+            Mana
+        }
+
         [SerializeField] private Characteristics[] _testingStats;
 
         private Button _button;

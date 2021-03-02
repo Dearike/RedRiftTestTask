@@ -50,7 +50,7 @@ namespace CodeBase.Infrastructure.Services.TextureProvider.TextureLoader
         {
             Texture = ((DownloadHandlerTexture)_request.downloadHandler).texture;
 
-            //ClearRequestData();
+            ClearRequestData();
 
             _responseAction?.Invoke(Texture);
         }

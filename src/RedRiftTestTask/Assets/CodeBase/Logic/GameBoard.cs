@@ -6,8 +6,8 @@ namespace CodeBase.Logic
     public class GameBoard : MonoBehaviour
     {
         [SerializeField] private Transform _battlePanel;
-        [SerializeField] private List<CardHand> _handPoints;
+        [SerializeField] private List<CardHand> _hands;
 
-        public List<CardHand> Hands => _handPoints;
+        public List<CardHand> Hands => _hands;
     }
 }

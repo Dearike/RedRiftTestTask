@@ -54,12 +54,10 @@ namespace CodeBase.Logic
         {
             for (int i = 0; i < _cards.Count; i++)
             {
-                float angleFactor = 0f;
+                float angleFactor = _cards.Count / (-2) + i; ;
 
                 if (_cards.Count % 2 == 0)
-                    angleFactor = _cards.Count / (-2) + i + 0.5f;
-                else
-                    angleFactor = _cards.Count / (-2) + i;
+                    angleFactor += 0.5f;
 
                 PositionCard(_cards[i], angleFactor);
             }

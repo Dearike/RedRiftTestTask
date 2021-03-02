@@ -454,7 +454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _battlePanel: {fileID: 4243374802457550017}
-  _handPoints:
+  _hands:
   - {fileID: 226304249532551307}
 --- !u!1001 &6360903712560722132
 PrefabInstance:

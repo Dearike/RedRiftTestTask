@@ -1,5 +1,4 @@
-﻿using CodeBase.Infrastructure.StateMachine;
-using CodeBase.Infrastructure.StateMachine.States;
+﻿using CodeBase.Infrastructure.StateMachine.States;
 using CodeBase.Logic;
 using UnityEngine;
 

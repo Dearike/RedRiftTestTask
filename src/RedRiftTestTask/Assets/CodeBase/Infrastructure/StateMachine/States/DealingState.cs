@@ -25,11 +25,6 @@ namespace CodeBase.Infrastructure.StateMachine.States
 
         }
 
-        private void InitCards()
-        {
-
-        }
-
         private void OnDealed()
         {
             _stateMachine.Enter<MatchLoopState>();

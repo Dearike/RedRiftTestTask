@@ -51,8 +51,10 @@ namespace CodeBase.Infrastructure.StateMachine
             return state;
         }
 
-        private TState GetState<TState>() where TState : class, IExitableState =>
-            _states[typeof(TState)] as TState;
+        private TState GetState<TState>() where TState : class, IExitableState
+        {
+            return _states[typeof(TState)] as TState;
+        }
 
     }
 }
